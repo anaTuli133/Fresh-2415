@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================================
+           Common css start
+==================================== */
+.container{
+    width: 1270px;
+    /* height: 400px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;  */
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+}
+
+
+a{
+    text-decoration: none; 
+    /* underline jate na ashe */
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* ====================================
+           Common css end
+==================================== */
+/* ====================================
+           Navbar css start
+==================================== */
+
+nav{
+    background: #FAE3B6;
+    padding: 50px 0px;
+}
+
+nav .box{
+    align-items: center;
+}
+nav .logo-part{
+    width:20%;
+    /* height: 300px;
+    background: #12acdbcb; */
+}
+
+nav .menu-part{
+    width:60%;
+    /* height: 300px;
+    background: #690606; */
+}
+
+nav .menu-part ul{
+    display: flex;
+    column-gap: 59px;
+    justify-content: center;
+}
+
+nav .menu-part ul li a{
+    color: black;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+nav .button-part{
+    width:20%;
+    text-align: right;
+    
+    /* height: 300px;
+    background: #3d912c; */
+}
+nav .button-part a{
+    margin-left: 10px;
+}
+
+nav .button-part a{
+    background: #FFD687;
+    padding: 10px 15px;
+    color: #000000;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+nav .button-part a:hover{
+    background: #FAE3B6;
+    border-color: rgb(179, 173, 173);
+}
+/* ====================================
+           Navbar css nd
+==================================== */
+
+/* ====================================
+           banner section css start
+==================================== */
+
+
+
+/* ====================================
+           banner section css end
+==================================== */
