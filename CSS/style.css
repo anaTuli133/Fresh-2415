@@ -97,13 +97,64 @@ nav .button-part a:hover{
     border-color: rgb(179, 173, 173);
 }
 /* ====================================
-           Navbar css nd
+           Navbar css end
 ==================================== */
 
 /* ====================================
            banner section css start
 ==================================== */
 
+.banner {
+    background: #FAE3B6;
+    padding-top: 124px;
+    padding-bottom: 102px;
+}
+.banner .left{
+    width: 50%;
+
+}
+
+.banner .left h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins" , sans-serif;
+    width: 540px;
+    padding-bottom: 38px;
+}
+
+.banner .left p{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    font-family: "Poppins" , sans-serif;
+    width: 531px;
+    padding-top: 38px;
+    padding-bottom: 76px;
+}
+
+.banner .left a{
+    background: black;
+    padding: 25px 91px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins" , sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.banner .left a:hover{
+    background: transparent;
+    border-color: black;
+    color: #000000;
+}
+.banner .right{
+    width: 50%;
+
+}
 
 
 /* ====================================
