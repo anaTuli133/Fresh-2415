@@ -156,7 +156,269 @@ nav .button-part a:hover{
 
 }
 
-
 /* ====================================
            banner section css end
+==================================== */
+
+/* ====================================
+           collection section css start
+==================================== */
+
+.collection {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.collection h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+}
+
+.collection .box{
+    justify-content: space-between;
+   
+}
+
+.collection .card{
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+ 
+}
+
+.collection .card .overlay{
+    width: 100%;
+    height: 100%;
+    /* background: rgba(209, 15, 15, 0.5); */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.collection .card .overlay a {
+    background:white;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins" , sans-serif;
+    margin-top: 200px;
+   
+}
+
+.collection .card:hover .overlay{
+    top: 0;
+}
+
+/* ====================================
+           collection section css end
+==================================== */
+
+
+/* ====================================
+           fasion part css start
+==================================== */
+ .fasion{
+        margin-bottom: 295px ;
+    }
+.fasion .left{
+    width: 50%;   
+}
+.fasion .left img{
+    width: 100%;
+    z-index:1;
+}
+
+.fasion .right{
+    width: 50%;
+    padding-left: 35px;
+}
+
+.fasion .box .right h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+}
+
+.fasion .box .right p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins" , sans-serif;
+    width: 443px;
+    padding-top: 63px;   
+    
+}
+
+.fasion .box{
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+}
+
+.info-box{
+    width: 793px;
+    /* height: 280px; */
+    padding: 66px 0;
+    background: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly ;
+    position: absolute;
+    bottom: -190px;
+    right: 0;
+    z-index: -1;
+}
+
+.info-box h4{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black; 
+}
+
+.info-box p{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins" , sans-serif;
+    color: black; 
+}
+
+.info-box .mini-box{
+    border-right: 1px solid black;
+    padding-right: 27px;
+}
+
+.info-box .mini-box:last-child{
+    border-right: 0;
+}
+
+/* .info-box .mini-box:nth-child(3){
+    border-right: 0;
+} */
+
+/* ====================================
+           fasion part css end
+==================================== */
+/* ====================================
+           Best product part css start
+==================================== */
+
+.product{
+    background: #CFA485;
+    padding-top: 36px;
+    padding-bottom: 190px;
+}
+.product .one{
+    width: 31%;
+
+}
+
+.product .one h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+}
+
+.product .one p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 430px;
+    padding-top: 63px;  
+    color: #fff;
+    padding-bottom: 40px;
+} 
+
+.product a{
+    background: black;
+    padding: 25px 91px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins" , sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.product a:hover{
+    background: transparent;
+    border-color: black;
+    color: #000000;
+}
+.product .two{
+    width: 31%;
+    padding-left: 45px;
+
+}
+
+
+
+.product .cart{
+    width: 366px;
+    height: 550px;
+    background: #fff;
+    border-top-right-radius:60px;
+    border-top-left-radius: 60px;
+    
+}
+
+.product .cart .cart-body{
+    padding-top: 14px;
+    padding-left: 10px;
+}
+
+.product .cart .cart-body h5{
+    padding-top: 14px;
+    padding-left: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins" , sans-serif;
+    padding-top: 10px;
+    
+}
+
+.product .cart .cart-body p{
+    color: #C4C4C4;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Poppins" , sans-serif;
+    padding-bottom: 10px;
+    padding-top: 4px;
+    
+}
+
+.product .cart .cart-body p span{
+    color: black;
+    padding-left: 30px;
+}
+.product .cart .cart-body ul{
+    display: flex;
+    column-gap: 8px;
+}
+
+.product .cart .cart-body ul li i{
+    color: #FFAF37;
+}
+
+
+/* ====================================
+           Best product part css end
 ==================================== */
